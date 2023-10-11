@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact form</title>
+    </head>
+    <body>
+        <form action="newPage.html"method="post" >
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Username"  maxlength="15" required placeholder="User name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="email">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="40" maxlength="40"></textarea><!--maxlength=40 means it allows only 40 letters in a row-->
+                <!--rows="4" means it gives only 5 rows&cols="40" means it gives only 40 columns-->
+            </div>
+            <div>
+                <input type="Submit">
+            </div>
+        </form>
+    </body>
+</html>
